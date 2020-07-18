@@ -1,0 +1,55 @@
+body{
+    font-family:arial;
+    color:#333333;
+    max-width:650px;
+    margin:0 auto;
+    padding:0 16px;
+
+    display:flex;   /* flex is a property of css which allow the div or any element to get a automatically structure according to the screen*/
+    flex-direction: column;
+    min-height:100vh;
+
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+header{
+    color:grey;
+    margin :16px;
+    padding: 3px;
+
+}
+footer
+{
+    color:#888888;
+    margin:16px;
+    padding:3px;
+    border-top: 1px solid #eeeeee;
+}
+
+header a
+{
+    color:#888888;
+    margin-right:16px;
+    text-decoration: none;
+
+}
+.protrait{
+    width:250px;
+
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+button{
+    cursor:pointer;
+    border:1px solid #888888;
+    background: #888888;
+    color:white;
+    padding:7px;
+}
